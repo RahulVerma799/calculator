@@ -1,0 +1,48 @@
+.back{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color:yellow;
+
+.container{
+    
+   
+   
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(4,4,4,4);
+
+    
+}
+
+.but{
+    align-items: center;
+    justify-content: center;
+    padding:2px;
+}
+
+button{
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    color: rgb(162, 255, 0);
+    background-color: cornflowerblue;
+    font-weight: 700;
+
+
+}
+.but input {
+    padding: 10px;
+    width: 220px; 
+    font-size: 18px;
+    border-radius: 8px;
+}
